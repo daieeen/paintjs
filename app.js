@@ -1,4 +1,4 @@
-const canvas = document.getElementById("jscanvas");
+const canvas = document.getElementById("jsCanvas");
 
 
 function onMouseMove(event) {
