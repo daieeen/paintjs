@@ -3,10 +3,9 @@ const canvas = document.getElementById("jsCanvas");
 function onMouseMove(event) {
     const x = event.offsetX;
     const y = event.offsetY;
-    console.log(x, y)
 }
 
-function onMouseDown(event){
+function onMouseDown(event) {
     console.log(event);
 }
 
