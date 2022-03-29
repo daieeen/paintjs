@@ -11,12 +11,12 @@ function onMouseDown(event) {
     painting = true;
 }
 
-function onmouseup(event) {
+function onMouseUp(event) {
     painting = false;
 }
 
 if (canvas) {
   canvas.addEventListener("mousemove", onMouseMove);
   canvas.addEventListener("mousedown", onMouseDown);
-  canvas.addEventListener("mouseup", onmouseup);
+  canvas.addEventListener("mouseup", onMouseUp);
 }
