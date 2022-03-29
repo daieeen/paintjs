@@ -5,6 +5,6 @@ function onMouseMove(event) {
     console.log(event);
 }
 
-if (canvas){
+if (canvas) {
   canvas.addEventListener("mousemove", onMouseMove);
 }
